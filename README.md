@@ -8,7 +8,7 @@ How to start (this is written also in readme.sh)
 2. run these commands below at the directory
   command: docker build -t name .
 
-  command: docker run -d -privileged -p NUM:NUM --name NAME NAME_IMAGE /sbin/init
+  command: docker run -d -privileged -p NUM:80 --name NAME NAME_IMAGE /sbin/init
   (need -privileged to run systemctl)
 
   (if you use macOS with mac chip, run this command instead)
