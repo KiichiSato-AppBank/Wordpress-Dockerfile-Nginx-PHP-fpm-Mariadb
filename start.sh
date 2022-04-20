@@ -18,7 +18,8 @@ mysql -u root -p$DB_PASS -e "create database $DB_NAME;"
 mysql -u root -p$DB_PASS -e "grant all privileges on wordpress1.* to root@localhost identified by '$DB_PASS';"
 mysql -u root -p$DB_PASS -e "flush privileges;"
 
-#sed
+# reference
+# url:https://github.com/eugeneware/docker-wordpress-nginx/blob/master/start.sh
 sed -i -e "s/database_name_here/$DB_NAME/
   s/username_here/root/
   s/password_here/$DB_PASS/
