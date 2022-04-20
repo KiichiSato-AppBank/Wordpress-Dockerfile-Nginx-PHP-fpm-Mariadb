@@ -10,7 +10,7 @@ How to start (this is written also in readme.sh)
   command: `docker build -t name .`
 
   * build up the container  
-  command: `docker run -d -privileged -p NUM:80 --name NAME NAME_IMAGE /sbin/init`  
+  command: `docker run -d -privileged -p NUM:NUM --name NAME NAME_IMAGE /sbin/init`  
   (need -privileged to run systemctl)  
   (port:NUM is needed when you visit wordpress via localhost)  
   
@@ -31,4 +31,4 @@ How to start (this is written also in readme.sh)
 
 4. visit the wordpress  
   * start your wordpress with the url below
-  * **localhost:NUM/wp-admin/install.php**
+  * URL:**localhost:NUM/wp-admin/install.php**
