@@ -27,7 +27,7 @@ How to start (this is written also in readme.sh)
   * *enter **nothing** for current password*  
   * answer **Y** for *Set root password*  
   * enter the *your new mysql password*  
-  * answe **Y** to the all questions  
+  * answer **Y** to the all questions  
 
 4. visit the wordpress  
   * start your wordpress with the url below
