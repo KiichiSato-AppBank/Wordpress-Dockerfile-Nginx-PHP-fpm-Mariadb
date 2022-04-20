@@ -7,7 +7,7 @@ echo COMMAND: docker run -d -privileged -p NUM:NUM --name NAME NAME_IMAGE /sbin/
 echo PORT:3306 IS ALREADY IN USE
 echo
 echo IF YOU ARE USING MAC OS WITH MAC CHIP, RUN THIS COMMAND INSTEAD
-echo COMMAND: docker run -d --privileged --cgroupns=host -v /sys/fs/cgroup:/sys/fs/cgroup:rw -p NUM:NUM NAME_IMAGE /sbin/init
+echo COMMAND: docker run -d --privileged --cgroupns=host -v /sys/fs/cgroup:/sys/fs/cgroup:rw -p NUM:80 --name NAME NAME_IMAGE /sbin/init
 echo
 echo
 echo STEP.2
